@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  min-width: 342px;
+}
+.holiday-shoppers {
+  background-image: url(../img/holiday-shoppers.jpg);
+  height: 340px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  margin: 5%;
+  width: 100%;
+}
+.small-image {
+  float: left;
+  background-image: url(../img/how-to-content.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  max-width: 130px;
+  min-width: 80px;
+  height: 80px;
+  width:30%;
+}
+.col-xs-12 {
+  margin: 7%;
+  margin-top: 0;
+  min-height: 127px;
+}
+.col-sm-6 {
+  margin: 0;
+}
+
+.text {
+  float: left;
+  width: 60%;
+  margin-left: 12px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 16px;
+}
+p {
+  font-size: 14px;
+}
