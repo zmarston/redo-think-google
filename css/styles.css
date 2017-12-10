@@ -4,9 +4,11 @@
 }
 body {
   min-width: 324px;
-  /*background-color: #f5f5f5;*/
-  background-color: black;
-
+  background-color: #f5f5f5;
+  /*background-color: black;*/
+}
+div.conatainer {
+  margin: 10px !important;
 }
 div.block {
   background-color: white;
@@ -19,14 +21,39 @@ div.block {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-.small-image {
-  background-image: url(../img/how-to-content.jpg);
+.presents {
+  background-image: url(../img/presents.jpg);
+  height: 340px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  margin-top: 20px !important;
+}
+.big-text {
+  color: grey;
+  width: 300px;
+  margin-left: 20px !important;
+  margin-top: 200px !important;
+}
+.small-image {
   min-width: 80px;
   height: 80px;
   padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.how-to-content {
+  background-image: url(../img/how-to-content.jpg);
+}
+.window {
+  background-image: url(../img/window.jpg);
+}
+.yoplait {
+  background-image: url(../img/yoplait.jpg);
+}
+.worth {
+  background-image: url(../img/worth.jpg);
 }
 .text {
   padding-right: 10px;
@@ -54,7 +81,25 @@ p {
     margin-top: 40px !important;
   }
   .block {
-    height: 330px;
+    height: 340px;
+    border: 10px solid #f5f5f5;
   }
 
+}
+@media screen and (min-width: 992px) {
+  div.block {
+    margin-top: 0 !important;
+  }
+  div.bottom {
+    margin-top: 20px !important;
+  }
+  .presents {
+    border: 10px solid #f5f5f5;
+  }
+  .holiday-shoppers {
+    border: 10px solid #f5f5f5;
+  }
+  .text p {
+    margin-top: 0px !important;
+  }
 }
